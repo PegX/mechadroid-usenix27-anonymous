@@ -1,0 +1,75 @@
+{
+  "aggregate": {
+    "guided_asr_mean": 0.4205729166666667,
+    "guided_asr_range": [
+      0.15234375,
+      0.85546875
+    ],
+    "plain_asr_mean": 0.18033854166666666
+  },
+  "architecture": "gcn",
+  "seeds": {
+    "42": {
+      "guided_asr": 0.85546875,
+      "guided_prob_drop": 0.7032094643187482,
+      "hotspot_minus_random_layer": {
+        "ci95_high": -0.5937365919754272,
+        "ci95_low": -0.6509511787928984,
+        "count": 512,
+        "mean": -0.622258206817565
+      },
+      "hotspot_minus_random_node": {
+        "ci95_high": 0.04780875248641062,
+        "ci95_low": 0.022681976650711286,
+        "count": 512,
+        "mean": 0.0345090669194903
+      },
+      "hotspot_stage_counts": {
+        "gnn:2": 512
+      },
+      "plain_asr": 0.384765625
+    },
+    "43": {
+      "guided_asr": 0.15234375,
+      "guided_prob_drop": 0.1535790252068493,
+      "hotspot_minus_random_layer": {
+        "ci95_high": 0.4580947046780218,
+        "ci95_low": 0.4059573355213126,
+        "count": 511,
+        "mean": 0.43201951924385823
+      },
+      "hotspot_minus_random_node": {
+        "ci95_high": 0.6400076531030501,
+        "ci95_low": 0.5831734904431408,
+        "count": 511,
+        "mean": 0.6114676094907578
+      },
+      "hotspot_stage_counts": {
+        "gnn:0": 511
+      },
+      "plain_asr": 0.10546875
+    },
+    "44": {
+      "guided_asr": 0.25390625,
+      "guided_prob_drop": 0.27278674821194426,
+      "hotspot_minus_random_layer": {
+        "ci95_high": -0.4112319246048274,
+        "ci95_low": -0.4868828704913974,
+        "count": 511,
+        "mean": -0.4504667560233737
+      },
+      "hotspot_minus_random_node": {
+        "ci95_high": 0.053086634173685615,
+        "ci95_low": 0.026008132901334344,
+        "count": 511,
+        "mean": 0.039278474238988025
+      },
+      "hotspot_stage_counts": {
+        "gnn:1": 8,
+        "gnn:2": 503
+      },
+      "plain_asr": 0.05078125
+    }
+  },
+  "shared_cohort": 512
+}

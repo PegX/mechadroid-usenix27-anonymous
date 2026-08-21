@@ -1,0 +1,634 @@
+{
+  "complete_case_paired_pool": {
+    "seed_source_unit_count": 168,
+    "source_count": 71,
+    "unit_keys": [
+      "seed42:source_001",
+      "seed42:source_002",
+      "seed42:source_003",
+      "seed42:source_004",
+      "seed42:source_005",
+      "seed42:source_006",
+      "seed42:source_007",
+      "seed42:source_008",
+      "seed42:source_009",
+      "seed42:source_010",
+      "seed42:source_011",
+      "seed42:source_012",
+      "seed42:source_013",
+      "seed42:source_014",
+      "seed42:source_015",
+      "seed42:source_017",
+      "seed42:source_018",
+      "seed42:source_019",
+      "seed42:source_020",
+      "seed42:source_021",
+      "seed42:source_022",
+      "seed42:source_023",
+      "seed42:source_025",
+      "seed42:source_027",
+      "seed42:source_028",
+      "seed42:source_029",
+      "seed42:source_030",
+      "seed42:source_031",
+      "seed42:source_032",
+      "seed42:source_033",
+      "seed42:source_034",
+      "seed42:source_035",
+      "seed42:source_036",
+      "seed42:source_037",
+      "seed42:source_038",
+      "seed42:source_039",
+      "seed42:source_040",
+      "seed42:source_041",
+      "seed42:source_042",
+      "seed42:source_043",
+      "seed42:source_044",
+      "seed42:source_045",
+      "seed42:source_046",
+      "seed42:source_047",
+      "seed42:source_048",
+      "seed42:source_049",
+      "seed42:source_050",
+      "seed42:source_051",
+      "seed42:source_053",
+      "seed42:source_054",
+      "seed42:source_056",
+      "seed42:source_057",
+      "seed42:source_058",
+      "seed42:source_059",
+      "seed42:source_060",
+      "seed42:source_062",
+      "seed42:source_063",
+      "seed42:source_064",
+      "seed42:source_065",
+      "seed42:source_066",
+      "seed42:source_067",
+      "seed42:source_068",
+      "seed42:source_069",
+      "seed42:source_070",
+      "seed42:source_071",
+      "seed42:source_072",
+      "seed42:source_073",
+      "seed42:source_074",
+      "seed43:source_002",
+      "seed43:source_005",
+      "seed43:source_007",
+      "seed43:source_008",
+      "seed43:source_009",
+      "seed43:source_011",
+      "seed43:source_012",
+      "seed43:source_013",
+      "seed43:source_014",
+      "seed43:source_015",
+      "seed43:source_017",
+      "seed43:source_018",
+      "seed43:source_019",
+      "seed43:source_020",
+      "seed43:source_021",
+      "seed43:source_022",
+      "seed43:source_023",
+      "seed43:source_024",
+      "seed43:source_025",
+      "seed43:source_027",
+      "seed43:source_028",
+      "seed43:source_029",
+      "seed43:source_030",
+      "seed43:source_031",
+      "seed43:source_032",
+      "seed43:source_033",
+      "seed43:source_034",
+      "seed43:source_035",
+      "seed43:source_036",
+      "seed43:source_037",
+      "seed43:source_038",
+      "seed43:source_039",
+      "seed43:source_040",
+      "seed43:source_041",
+      "seed43:source_042",
+      "seed43:source_043",
+      "seed43:source_044",
+      "seed43:source_045",
+      "seed43:source_046",
+      "seed43:source_047",
+      "seed43:source_048",
+      "seed43:source_049",
+      "seed43:source_050",
+      "seed43:source_051",
+      "seed43:source_052",
+      "seed43:source_053",
+      "seed43:source_054",
+      "seed43:source_056",
+      "seed43:source_057",
+      "seed43:source_058",
+      "seed43:source_059",
+      "seed43:source_060",
+      "seed43:source_061",
+      "seed43:source_062",
+      "seed43:source_063",
+      "seed43:source_064",
+      "seed43:source_065",
+      "seed43:source_066",
+      "seed43:source_067",
+      "seed43:source_068",
+      "seed43:source_069",
+      "seed43:source_070",
+      "seed43:source_071",
+      "seed43:source_072",
+      "seed43:source_073",
+      "seed43:source_074",
+      "seed44:source_001",
+      "seed44:source_002",
+      "seed44:source_003",
+      "seed44:source_004",
+      "seed44:source_005",
+      "seed44:source_006",
+      "seed44:source_007",
+      "seed44:source_008",
+      "seed44:source_009",
+      "seed44:source_010",
+      "seed44:source_011",
+      "seed44:source_015",
+      "seed44:source_021",
+      "seed44:source_023",
+      "seed44:source_025",
+      "seed44:source_029",
+      "seed44:source_031",
+      "seed44:source_032",
+      "seed44:source_033",
+      "seed44:source_034",
+      "seed44:source_035",
+      "seed44:source_036",
+      "seed44:source_045",
+      "seed44:source_047",
+      "seed44:source_050",
+      "seed44:source_051",
+      "seed44:source_053",
+      "seed44:source_054",
+      "seed44:source_056",
+      "seed44:source_061",
+      "seed44:source_064",
+      "seed44:source_066",
+      "seed44:source_070",
+      "seed44:source_072"
+    ]
+  },
+  "conditions": {
+    "destructive_upper": {
+      "all_checkpoint_detector_flip_count": 0,
+      "checkpoint_calls_exceeding_300_seconds": 0,
+      "checkpoint_runtime_seconds": {
+        "maximum": 47.924380792013835,
+        "median": 3.565958999504801,
+        "p95": 26.72154621872454,
+        "p99": 46.88229107455758
+      },
+      "complete_source_count": 71,
+      "cumulative_gate_counts": {
+        "art_install_pass": 135,
+        "behavior_ioc_pass": 113,
+        "detector_flip": 0,
+        "edit_applied_pass": 174,
+        "repack_pass": 174,
+        "smoke_pass": 132
+      },
+      "frozen_denominator": 221,
+      "latent_cosine": {
+        "cluster_bootstrap_95_ci": [
+          0.043985417627958726,
+          0.051090252254265736
+        ],
+        "mean": 0.047470016398295845
+      },
+      "matching_detector_flip": {
+        "count": 0,
+        "rate_among_complete": 0.0,
+        "wilson_95_ci": [
+          0.0,
+          0.021600468451887907
+        ]
+      },
+      "matching_malware_probability_delta": {
+        "cluster_bootstrap_95_ci": [
+          -0.0010240702806633816,
+          0.00039913792704866633
+        ],
+        "mean": -0.00028800171350194787
+      },
+      "realized_delta_l2": {
+        "cluster_bootstrap_95_ci": [
+          0.6565869582336546,
+          0.6843607345832216
+        ],
+        "mean": 0.6709518400074421
+      },
+      "relative_target_distance": {
+        "cluster_bootstrap_95_ci": [
+          4.855392938991938,
+          5.056402335509873
+        ],
+        "mean": 4.959581964317409
+      },
+      "status_counts": {
+        "complete": 174,
+        "failed": 3,
+        "ineligible": 44
+      }
+    },
+    "latent_cosine": {
+      "all_checkpoint_detector_flip_count": 0,
+      "checkpoint_calls_exceeding_300_seconds": 0,
+      "checkpoint_runtime_seconds": {
+        "maximum": 52.44376866595121,
+        "median": 3.573503667023033,
+        "p95": 13.949460020795224,
+        "p99": 47.0566899987479
+      },
+      "complete_source_count": 73,
+      "cumulative_gate_counts": {
+        "art_install_pass": 175,
+        "behavior_ioc_pass": 172,
+        "detector_flip": 0,
+        "edit_applied_pass": 214,
+        "repack_pass": 214,
+        "smoke_pass": 172
+      },
+      "frozen_denominator": 221,
+      "latent_cosine": {
+        "cluster_bootstrap_95_ci": [
+          0.06075594494937635,
+          0.07046316080216289
+        ],
+        "mean": 0.06572179395975283
+      },
+      "matching_detector_flip": {
+        "count": 0,
+        "rate_among_complete": 0.0,
+        "wilson_95_ci": [
+          0.0,
+          0.017634195260581874
+        ]
+      },
+      "matching_malware_probability_delta": {
+        "cluster_bootstrap_95_ci": [
+          -8.512093035794633e-05,
+          -2.1112575958899247e-05
+        ],
+        "mean": -4.684453043520032e-05
+      },
+      "realized_delta_l2": {
+        "cluster_bootstrap_95_ci": [
+          0.025919587866169713,
+          0.04115347737140234
+        ],
+        "mean": 0.03359451110189777
+      },
+      "relative_target_distance": {
+        "cluster_bootstrap_95_ci": [
+          1.0670557161336238,
+          1.1173178261224652
+        ],
+        "mean": 1.0915064783853905
+      },
+      "status_counts": {
+        "complete": 214,
+        "failed": 3,
+        "ineligible": 4
+      }
+    },
+    "random_direction": {
+      "all_checkpoint_detector_flip_count": 0,
+      "checkpoint_calls_exceeding_300_seconds": 0,
+      "checkpoint_runtime_seconds": {
+        "maximum": 70.97376537503442,
+        "median": 3.547621166508179,
+        "p95": 13.779242568844346,
+        "p99": 46.96557701623941
+      },
+      "complete_source_count": 73,
+      "cumulative_gate_counts": {
+        "art_install_pass": 174,
+        "behavior_ioc_pass": 171,
+        "detector_flip": 0,
+        "edit_applied_pass": 208,
+        "repack_pass": 208,
+        "smoke_pass": 171
+      },
+      "frozen_denominator": 221,
+      "latent_cosine": {
+        "cluster_bootstrap_95_ci": [
+          0.008666792645132005,
+          0.02057430330399554
+        ],
+        "mean": 0.014563667616480066
+      },
+      "matching_detector_flip": {
+        "count": 0,
+        "rate_among_complete": 0.0,
+        "wilson_95_ci": [
+          0.0,
+          0.018133649768460082
+        ]
+      },
+      "matching_malware_probability_delta": {
+        "cluster_bootstrap_95_ci": [
+          -1.926450020226367e-05,
+          -7.0669380140917626e-06
+        ],
+        "mean": -1.272151296496145e-05
+      },
+      "realized_delta_l2": {
+        "cluster_bootstrap_95_ci": [
+          0.025495184216073677,
+          0.03989228125422291
+        ],
+        "mean": 0.03263152191804973
+      },
+      "relative_target_distance": {
+        "cluster_bootstrap_95_ci": [
+          1.0700626669859954,
+          1.1214516092834839
+        ],
+        "mean": 1.095247389605412
+      },
+      "status_counts": {
+        "complete": 208,
+        "failed": 9,
+        "ineligible": 4
+      }
+    },
+    "random_method": {
+      "all_checkpoint_detector_flip_count": 0,
+      "checkpoint_calls_exceeding_300_seconds": 0,
+      "checkpoint_runtime_seconds": {
+        "maximum": 47.008671167015564,
+        "median": 3.55706727100187,
+        "p95": 13.992818936836537,
+        "p99": 46.60808001077618
+      },
+      "complete_source_count": 73,
+      "cumulative_gate_counts": {
+        "art_install_pass": 175,
+        "behavior_ioc_pass": 172,
+        "detector_flip": 0,
+        "edit_applied_pass": 214,
+        "repack_pass": 214,
+        "smoke_pass": 172
+      },
+      "frozen_denominator": 221,
+      "latent_cosine": {
+        "cluster_bootstrap_95_ci": [
+          0.03850392562551904,
+          0.046532928995327016
+        ],
+        "mean": 0.04256193766454191
+      },
+      "matching_detector_flip": {
+        "count": 0,
+        "rate_among_complete": 0.0,
+        "wilson_95_ci": [
+          0.0,
+          0.017634195260581874
+        ]
+      },
+      "matching_malware_probability_delta": {
+        "cluster_bootstrap_95_ci": [
+          -1.0306424665655625e-05,
+          2.9836829673569126e-07
+        ],
+        "mean": -5.198597469065534e-06
+      },
+      "realized_delta_l2": {
+        "cluster_bootstrap_95_ci": [
+          0.11292931759681352,
+          0.14608113614490262
+        ],
+        "mean": 0.12908781259472996
+      },
+      "relative_target_distance": {
+        "cluster_bootstrap_95_ci": [
+          1.3819543835619148,
+          1.5532921443656784
+        ],
+        "mean": 1.4650379903962678
+      },
+      "status_counts": {
+        "complete": 214,
+        "failed": 3,
+        "ineligible": 4
+      }
+    },
+    "semantics_preserving": {
+      "all_checkpoint_detector_flip_count": 0,
+      "checkpoint_calls_exceeding_300_seconds": 0,
+      "checkpoint_runtime_seconds": {
+        "maximum": 47.35730087495176,
+        "median": 3.5649200414773077,
+        "p95": 13.803314685076465,
+        "p99": 46.81676181208168
+      },
+      "complete_source_count": 73,
+      "cumulative_gate_counts": {
+        "art_install_pass": 175,
+        "behavior_ioc_pass": 172,
+        "detector_flip": 0,
+        "edit_applied_pass": 214,
+        "repack_pass": 214,
+        "smoke_pass": 172
+      },
+      "frozen_denominator": 221,
+      "latent_cosine": {
+        "cluster_bootstrap_95_ci": [
+          -0.01174301007081437,
+          -0.004627929085676901
+        ],
+        "mean": -0.00823432057263617
+      },
+      "matching_detector_flip": {
+        "count": 0,
+        "rate_among_complete": 0.0,
+        "wilson_95_ci": [
+          0.0,
+          0.017634195260581874
+        ]
+      },
+      "matching_malware_probability_delta": {
+        "cluster_bootstrap_95_ci": [
+          -1.5184823757311496e-05,
+          -1.3639767870413208e-06
+        ],
+        "mean": -8.251959460789448e-06
+      },
+      "realized_delta_l2": {
+        "cluster_bootstrap_95_ci": [
+          0.027450792343781855,
+          0.043340340542868686
+        ],
+        "mean": 0.03524057490198446
+      },
+      "relative_target_distance": {
+        "cluster_bootstrap_95_ci": [
+          1.0841413585025126,
+          1.1467920484071041
+        ],
+        "mean": 1.115192858136703
+      },
+      "status_counts": {
+        "complete": 214,
+        "failed": 3,
+        "ineligible": 4
+      }
+    }
+  },
+  "design": {
+    "conditions": [
+      "semantics_preserving",
+      "latent_cosine",
+      "destructive_upper",
+      "random_direction",
+      "random_method"
+    ],
+    "confidence_interval_policy": "source_APK_cluster_bootstrap_10000_resamples",
+    "failure_policy": "fail_closed_in_frozen_condition_denominator",
+    "frozen_arm_count": 1105,
+    "frozen_seed_source_target_count": 221,
+    "frozen_source_count": 74,
+    "paired_pool_policy": "all_five_conditions_complete_at_gated_stage",
+    "seeds": [
+      42,
+      43,
+      44
+    ]
+  },
+  "failed_source_count": 5,
+  "failure_categories": {
+    "invalid_source_apk_zip": 15,
+    "materialization_invalid_register": 6
+  },
+  "overall_status_counts": {
+    "complete": 1024,
+    "failed": 21,
+    "ineligible": 60
+  },
+  "paired_contrasts": {
+    "destructive_upper_minus_semantics_preserving": {
+      "discordant_pair_count": 0,
+      "latent_cosine_difference": {
+        "cluster_bootstrap_95_ci": [
+          0.048572250970311065,
+          0.05639037390780028
+        ],
+        "cluster_sign_flip_p_value": 4.999750012499375e-05,
+        "mean": 0.052721920445730486
+      },
+      "matching_detector_flip_counts": {
+        "destructive_upper": 0,
+        "semantics_preserving": 0
+      },
+      "matching_malware_probability_delta_difference": {
+        "cluster_bootstrap_95_ci": [
+          -0.0011909487225874094,
+          0.0002983904928581739
+        ],
+        "cluster_sign_flip_p_value": 0.3559322033898305,
+        "mean": -0.0004221275900008874
+      },
+      "paired_unit_count": 168,
+      "source_cluster_count": 71
+    },
+    "latent_cosine_minus_random_direction": {
+      "discordant_pair_count": 0,
+      "latent_cosine_difference": {
+        "cluster_bootstrap_95_ci": [
+          0.041558666903493705,
+          0.0521598355491967
+        ],
+        "cluster_sign_flip_p_value": 4.999750012499375e-05,
+        "mean": 0.04676615952173181
+      },
+      "matching_detector_flip_counts": {
+        "latent_cosine": 0,
+        "random_direction": 0
+      },
+      "matching_malware_probability_delta_difference": {
+        "cluster_bootstrap_95_ci": [
+          -2.6963579080995706e-05,
+          -5.231974868354245e-06
+        ],
+        "cluster_sign_flip_p_value": 0.000199990000499975,
+        "mean": -1.400096724475151e-05
+      },
+      "paired_unit_count": 168,
+      "source_cluster_count": 71
+    },
+    "latent_cosine_minus_random_method": {
+      "discordant_pair_count": 0,
+      "latent_cosine_difference": {
+        "cluster_bootstrap_95_ci": [
+          0.019976827686526068,
+          0.028236197974081157
+        ],
+        "cluster_sign_flip_p_value": 4.999750012499375e-05,
+        "mean": 0.024104493636557544
+      },
+      "matching_detector_flip_counts": {
+        "latent_cosine": 0,
+        "random_method": 0
+      },
+      "matching_malware_probability_delta_difference": {
+        "cluster_bootstrap_95_ci": [
+          -4.272037179864622e-05,
+          -8.582328917465889e-06
+        ],
+        "cluster_sign_flip_p_value": 0.009349532523373831,
+        "mean": -2.4529944392415698e-05
+      },
+      "paired_unit_count": 168,
+      "source_cluster_count": 71
+    },
+    "latent_cosine_minus_semantics_preserving": {
+      "discordant_pair_count": 0,
+      "latent_cosine_difference": {
+        "cluster_bootstrap_95_ci": [
+          0.06601758583580093,
+          0.07264337907002646
+        ],
+        "cluster_sign_flip_p_value": 4.999750012499375e-05,
+        "mean": 0.06937434697708038
+      },
+      "matching_detector_flip_counts": {
+        "latent_cosine": 0,
+        "semantics_preserving": 0
+      },
+      "matching_malware_probability_delta_difference": {
+        "cluster_bootstrap_95_ci": [
+          -4.0576309683408914e-05,
+          -1.1252460734906478e-05
+        ],
+        "cluster_sign_flip_p_value": 4.999750012499375e-05,
+        "mean": -2.3388670439463068e-05
+      },
+      "paired_unit_count": 168,
+      "source_cluster_count": 71
+    }
+  },
+  "provenance": {
+    "evidence_rows_csv": "evidence_rows.csv",
+    "evidence_rows_csv_sha256": "2922c1a90d0e4f91af2e9b07015016c15b30300dc8c3117018540e95fa1e3ee2",
+    "evidence_rows_json": "evidence_rows.json",
+    "evidence_rows_json_sha256": "dbcd49228a71b5ab7b6da4f8eabf68f66878c46a7754b840411d7949233e31e6"
+  },
+  "runtime": {
+    "all_completed_checkpoint_calls": 3072,
+    "calls_exceeding_300_seconds": 0,
+    "seconds": {
+      "maximum": 70.97376537503442,
+      "median": 3.564606311963871,
+      "p95": 14.018153572530714,
+      "p99": 46.87936228307721
+    }
+  },
+  "schema_version": 1,
+  "source_evidence_sha256": "df1a1cfe5960fefcba68dfaf570d871817cbc39fbc53f761de957ef118516029",
+  "source_summary_sha256": "c32ea984740d46401a9fda36afd62b205ec44c5fe4e4548b4924fd19c8c72f5f"
+}

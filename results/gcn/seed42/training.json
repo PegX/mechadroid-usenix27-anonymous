@@ -1,0 +1,49 @@
+{
+  "architecture": "gcn",
+  "best_epoch": 9,
+  "best_val_f1": 0.9475019021049962,
+  "dataset_sizes": {
+    "test": 3294,
+    "train": 10536,
+    "val": 2634
+  },
+  "group_audit": {
+    "cross_split_group_count": 0,
+    "duplicate_test_group_count": 0,
+    "duplicate_train_group_count": 0,
+    "test_group_count": 3294,
+    "train_group_count": 13170
+  },
+  "hyperparameters": {
+    "batch_size": 8,
+    "dropout_ratio": 0.2,
+    "epochs": 50,
+    "hidden_channels": 128,
+    "jk": "last",
+    "lr": 0.001,
+    "num_layers": 3,
+    "patience": 8,
+    "val_ratio": 0.2,
+    "weight_decay": 0.0001
+  },
+  "seed": 42,
+  "test_metrics": {
+    "accuracy": 0.9210686095931998,
+    "confusion_matrix": [
+      [
+        645,
+        163
+      ],
+      [
+        97,
+        2389
+      ]
+    ],
+    "f1": 0.9483922191345772,
+    "loss": 0.20657330041138142,
+    "precision": 0.9361285266457681,
+    "recall": 0.9609814963797265,
+    "roc_auc": 0.9720548935424517,
+    "size": 3294
+  }
+}

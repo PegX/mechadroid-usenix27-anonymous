@@ -1,0 +1,49 @@
+seed: 44
+device: auto
+out_dir: outputs_local/factorial
+eval_split: test
+alg1: {topk: 1}
+alg2:
+  max_steps: 10
+  budget: 1
+  eps: 0.005
+  lr: 0.002
+  top_candidates: 8
+  eval_every: 5
+  random_restarts: 1
+  projection: linf
+  optimizer: adam
+  attack_scheme: pgd_latent
+  candidate_selection: degree_internal_first
+  selection_metric: success
+  selection_mode: max
+  selection_primary_tol: 0.01
+  circuit_loss_weight: 0.15
+alg3: {enabled: true}
+task:
+  mevgt_root: third_party/MeVGT
+  train_dataset: data_local/train_dataset.pt
+  test_dataset: data_local/test_dataset.pt
+  checkpoint_path: checkpoints_local/best_model.pt
+device: auto
+  batch_size: 64
+  eval_batch_size: 64
+  hidden_channels: 128
+  out_channels: 2
+  num_layers: 3
+  dropout_ratio: 0.2
+  gnn_type: gcn
+  jk: last
+  eval_subset_size: null
+  attack_subset_size: 512
+  attack_label: 1
+  target_label: 0
+  require_clean_correct: true
+  reference_strategy: first_correct_malware
+  reference_sampling: deterministic_random
+  reference_index: 0
+  top_candidates: 8
+  candidate_selection: degree_internal_first
+  random_seed: 44
+  task_name: android_malware_node_latent_leakage_safe_gcn_seed44
+  use_head_circuit: true
